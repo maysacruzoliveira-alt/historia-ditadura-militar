@@ -1,0 +1,20 @@
+body{
+    color:rgb(41, 74, 138);
+    background:aliceblue;
+}
+header{
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 32px;
+    color: aliceblue;
+}
+section{
+    background: red ;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-left: 5%;
+}
