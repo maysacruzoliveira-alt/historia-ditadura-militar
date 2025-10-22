@@ -1,6 +1,8 @@
 body{
     color:rgb(41, 74, 138);
     background:aliceblue;
+     margin: 0px;
+    font-family: "Gravitas One", sans-serif;
 }
 header{
     border-bottom: solid 2px red;
@@ -17,4 +19,4 @@ section{
 }
 .chamada-texto{
     margin-left: 5%;
-}
+} 
