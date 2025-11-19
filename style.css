@@ -1,6 +1,6 @@
 body {
     color: rgb(41, 74, 138);
-    background: aliceblue;
+    background: rgb(173, 215, 255);
     margin: 0px;
     font-family: "Gravitas One", sans-serif;
     margin-bottom: 100px;
@@ -10,7 +10,7 @@ header {
     border-bottom: solid 2px rgba(231, 96, 102, 0.966);
     padding: 20px;
     font-size: 32px;
-    color: aliceblue;
+    color: rgb(235, 246, 255);
 }
 
 .chamada{
