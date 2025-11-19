@@ -3,17 +3,18 @@ body {
     background: aliceblue;
     margin: 0px;
     font-family: "Gravitas One", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px rgba(231, 96, 102, 0.966);
     padding: 20px;
     font-size: 32px;
     color: aliceblue;
 }
 
-section {
-    background: red;
+.chamada{
+    background: #ffacccec;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -23,12 +24,31 @@ section {
 .chamada-texto {
     margin-left: 5%;
 }
-.categotia_videos{ 
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.categoria_videos{ 
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.categotia{
+.categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
+.categoria h2{
+    color: purple;
 }
